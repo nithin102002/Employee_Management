@@ -1,0 +1,167 @@
+.table {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Style the table */
+  #innertable {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  
+  #innertable td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30%;
+    
+  }
+  #innertable th{
+   
+    padding: 20px;
+    text-align: center;
+    background-color: #86bef9; 
+    font-size: large;
+    
+  }
+  
+  /* Style the Edit and Delete buttons */
+  button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  /* Edit button with blue color */
+  #Accept {
+    background-color: #007bff;
+    color: #fff;
+    padding-left: 10px;
+    
+  }
+  
+  /* Delete button with red color */
+  #Denied {
+    background-color: #dc3545;
+    color: #fff;
+    
+  }
+  
+  /* Add User button */
+  #button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  #leavapplication-btn{
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #59a8fc; 
+    padding: 10px 20px;
+    color: white; 
+}
+
+#divlogoimage
+{
+  height: 50px;
+  width: auto;
+}
+
+
+
+
+/* Style the search bar container */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* Style the search input field */
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+.search-button {
+  background-color: white; 
+  color: white; 
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.custom-select {
+  width: 200px; 
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+.custom-select:hover {
+  border-color: #666;
+}
+
+.custom-select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+
+#singleDetail
+{
+  margin: 25% 25% 25% 25% ;
+}
+
+#innerSingleDetail
+{
+  padding-left: 40%;
+}
+
+#filterbox{
+
+  margin-bottom: 10px;
+  margin-left: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+  
+
+

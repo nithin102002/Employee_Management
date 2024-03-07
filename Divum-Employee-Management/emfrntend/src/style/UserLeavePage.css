@@ -1,0 +1,99 @@
+.leave-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .leave-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .leave-form-container.form-group {
+    margin-bottom: 10px;
+  }
+  
+  .leave-form-container label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .leave-form-container input[type="text"],
+  .leave-form-container input[type="email"],
+  .leave-form-container input[type="date"],
+ 
+  textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .leave-form-container .reasonlable{
+    
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  
+  .leave-form-container button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .leave-form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  
+/* style for tables */
+
+.table {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  
+}
+
+/* Style the table */
+/* #intable {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+} */
+
+
+#intable td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  margin-left: 30%;
+  
+}
+#intable th{
+ 
+  padding: 20px;
+  text-align: center;
+  background-color: #86bef9; 
+  font-size: large;
+  
+}
